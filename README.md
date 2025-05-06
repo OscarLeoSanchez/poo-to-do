@@ -15,13 +15,29 @@ todo_app/
 │   │   └── task_service.py
 │   ├── storage/
 │   │   └── file_storage.py
-│   └── cli/
-│       └── commands.py
+│   └── ui/
+│       └── ui_cli.py
 ├── data/
 │   └── tasks.json
 │── requirements.txt
 ├── README.md
 ├── .gitignore
-├── .env
 └── main.py
+```
+
+## Instalación
+
+1. Crear en un entorno virtual
+
+```bash
+python -m venv .venv
+```
+
+2. Activar el entorno virtual
+
+```bash
+# Windows
+.venv\Scripts\activate
+# Linux/MacOS
+source .venv/bin/activate
 ```
